@@ -25,7 +25,7 @@ Lunch
     - Index needs to handle the hide/show of the dialog 
     - Index needs to pass in the Pizza object as well as two 'command' delegates
     - Using `@bind` and `@onclick` on the customize dialog to update prices in real time
-    - explain the use of `@bind-value:event="oninput"` on the slider
+    - explain the use of `@bind:event="oninput"` on the slider
     - cancel button should close the dialog
     - confirm button should close the dialog and add to order
     - now add the markup for sidebar which will display orders
@@ -39,7 +39,7 @@ Lunch
     - MyOrders should retrieve list of orders and show the past orders
     - Add a new page OrderDetails to show the status of an individual order
     - It should be possible to click from MyOrders->OrderDetails
-    - The OrderDetails should poll for updates to the order fromthe backend
+    - The OrderDetails should poll for updates to the order from the backend
     - Go back to the index and make placing an order navigate you to the MyOrders page
 4. DI and AppState pattern
     - Notice that we lose track of any pizzas when you switch between MyOrders and Index, we can fix this by storing the state at a higher level
